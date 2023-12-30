@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .main {
+    width: 100%;
+    height: 100vh;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .first-div {
+    display: flex;
+  }
+  
+  .first-div img {
+    margin-bottom: 12px;
+  }
+  
+  .container {
+    width: 30%;
+    height: 80vh;
+    border: 1px solid rgb(216, 206, 206);
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #fb-login{
+    width: 420px;
+  }
+  .container img {
+    width: 500px;
+  }
+  
+  input {
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+    border-radius: 3px solid;
+    height: 50px;
+    margin-top: 90px;
+    background-color: rgb(255, 254, 254);
+    padding: 10px; /* Added padding for better appearance */
+  }
+  
+  /* Updated styles for placeholder text */
+  #inp1::placeholder,
+  #inp2::placeholder {
+    font-size: 16px;
+    color: rgb(143, 140, 140);
+  }
+  
+  #inp2 {
+    position: relative;
+    
+    bottom: 200px;
+    border-radius: 5px;
+    border: 1px solid rgb(208, 201, 201);
+  }
+  #inp1 {
+    border-radius: 5px;
+    background-color: rgb(255, 254, 254);
+    border: 1px solid rgb(208, 201, 201);
+  }
+  
+  #main-p {
+    font-size: 27px;
+    margin-bottom: 6px;
+    margin-left: 80px;
+    color: rgb(143, 140, 140);
+  }
+  
+  #pass-forgot {
+    position: relative;
+    bottom: 120px;
+    left: 330px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: rgb(10, 177, 219);
+  }
+  #pass-forgot:hover{
+    cursor: pointer;
+  }
+  
+  #login-btn {
+    position: relative;
+    bottom: 90px;
+  }
+  #login-btn:hover{
+    cursor: pointer;
+  }
+  
+  #login-btn p {
+    font-size: 22px;
+  }
+  
+  #fb-login:hover {
+    cursor: pointer;
+  }
+  #p-newAcc{
+    font-size: 23px;
+    position: relative;
+    bottom: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey;
+  }
+  #signup{
+    color: rgb(10, 177, 219);
+  }
+  #signup:hover{
+    cursor: pointer;
+  }
+
+
+/* 
+  {
+    .container{
+   position: relative;
+   left: 840px;
+    }
+    .first-div{
+        display: none;
+    }
+  }
+    */
+
+    @media screen and (max-width: 542px){
+    .main{
+        position: relative;
+        left: 140px;
+        top: 120px;
+    }
+
+
+
+    }
